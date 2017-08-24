@@ -20,7 +20,7 @@ app.component('projects', {
                 <div ng-repeat="projects in [1,2,3,4]" class="row">
                     <div class="content">
                         <div ng-repeat="project in [1,2,3]" class="col-md-4">
-                            <div class="wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="wow bounceIn animated" data-wow-delay="0.8s">
                                 <div class="align-center">
                                     <h4>Project{{projects}}{{project}}</h4>	
                                     <div class="icon">

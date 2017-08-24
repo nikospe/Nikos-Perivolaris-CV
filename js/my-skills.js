@@ -1,12 +1,6 @@
 class MySkillsCtrl {
 	constructor () {
-		this.skills = [{'name': 'Web Developer', 'value': '80%'},
-						{'name': 'Software Development', 'value': '70%'},
-						{'name': 'Databases', 'value': '90%'},
-						{'name': 'Linux', 'value': '70%'},
-						{'name': 'Information Security', 'value': '60%'},
-						{'name': 'Technical Support', 'value': '90%'},
-						{'name': 'Networking', 'value': '70%'}]
+		this.skills = SKILLS;
 	}
 	
 	cancelEvent (e) {
