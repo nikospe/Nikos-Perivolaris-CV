@@ -48,3 +48,19 @@ const MORE_PROJECTS = [{'name': 'Multy Api Url Shortener', 'text': 'A back-end a
                             +'Made with: HTML5,CSS3, BOOTSTRAP, JavaScript, JQUERY, AJAX, JSON, PHP, SQL)'
                             +'Find it online here: http://nikospergm.000webhostapp.com/',
                             'link': 'https://github.com/nikospe/thesis'}];
+const OTHER_PROJECTS = [{'name': 'Stock Manager', 'text': 'University project. Its an administrator'
+                            +'system for a bycicle shop that manage the clients orders. Made with C',
+                            'link': 'https://github.com/nikospe/stock_manager'},
+                            {'name': 'Tic Tac Toe', 'text': 'University project. its the tic tac toe 4X4'
+                            +'game, playing with computer or another player made with C',
+                            'link': 'https://github.com/nikospe/tic_tac_toe_x4'},
+                            {'name': 'Todo List', 'text': 'Its a project just for learning DJANGO'
+                            +'framework for python.',
+                            'link': 'https://github.com/nikospe/testing-django'}];
+const LAST_PROJECTS = [{'name': 'Telecommunication Enterprise', 'text': 'University project'
+                            +'Fully-featured internet/intranet platform in Java2EE.'
+                            +'Eshop and intranet for administrators',
+                            'link': 'https://github.com/nikospe/telecommunication_enterprise'},
+                        {'name': 'Booking manager', 'text': 'University project for booking routes'
+                            +'mede with Java GUI',
+                            'link': 'https://github.com/nikospe/booking-manager'}];                            

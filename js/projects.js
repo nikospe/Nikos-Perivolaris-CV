@@ -1,6 +1,5 @@
 class ProjectsCtrl {
     constructor () {
-
     }
 }
 
@@ -16,29 +15,8 @@ app.component('projects', {
                     </div>
                 </div>
             </div>
-            <div class="container">
-                <div ng-repeat="projects in [1,2,3,4]" class="row">
-                    <div class="content">
-                        <div ng-repeat="project in [1,2,3]" class="col-md-4">
-                            <div class="wow bounceIn animated" data-wow-delay="0.8s">
-                                <div class="align-center">
-                                    <h4>Project{{projects}}{{project}}</h4>	
-                                    <div class="icon">
-                                        <i class="fa fa-tasks fa-3x"></i>
-                                    </div>
-                                    <img src="" alt="" class="img-responsive">
-                                    <p>
-                                        Project{{project}}
-                                    </p>
-                                    <div class="ficon">
-                                        <a href="" alt="">Learn more</a><i class="fa fa-long-arrow-right"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <recent-projects></recent-projects>
+            <other-projects></other-projects>
             <section class="portfolio">
                 <div class="container">
                     <div class="row">

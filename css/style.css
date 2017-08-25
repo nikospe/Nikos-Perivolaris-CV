@@ -17,9 +17,13 @@ body {
 	background-color:#fff;
 }
 
-.fix-overflow{
+.fix-overflow {
 	overflow: overlay;
 	height: 170px;
+}
+
+.fix-height {
+	height: 510px;
 }
 
 #my-image {
