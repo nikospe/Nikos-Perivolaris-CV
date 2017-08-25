@@ -16,22 +16,17 @@ app.component('projects', {
                 </div>
             </div>
             <recent-projects></recent-projects>
-            <other-projects></other-projects>
+            <other-projects></other-projects>            
             <section class="portfolio">
-                <div class="container">
+                <div class="container">                    
                     <div class="row">
+                        <h3 class="black">Lets see some of my projects</h3>
+                        <hr>
+                        <h3 class="black">Mobile Eshop</h3>                        
+                        <h5 class="black">For desktops</h5>
                         <div class="popup-gallery">
-                            <div class="col-md-3">
-                                <a href="img/portfolio/1.jpg" title="The Cleaner"><img src="img/portfolio/1.jpg" class="img-responsive"alt="" /></a>				
-                            </div>
-                            <div class="col-md-3">					
-                                <a href="img/portfolio/2.jpg" title="The Cleaner"><img src="img/portfolio/2.jpg" class="img-responsive"alt="" /></a>
-                            </div>
-                            <div class="col-md-3">
-                                <a href="img/portfolio/3.jpg" title="The Cleaner"><img src="img/portfolio/3.jpg" class="img-responsive"alt="" /></a>
-                            </div>
-                            <div class="col-md-3">
-                                <a href="img/portfolio/4.jpg" title="The Cleaner"><img src="img/portfolio/4.jpg" class="img-responsive"alt="" /></a>				
+                            <div ng-repeat="count in [1,2,3]" class="col-md-4">
+                                <img src="img/projects/mob-shop-{{count}}.png" class="img-responsive"alt="" />			
                             </div>
                         </div>
                     </div>
@@ -39,23 +34,67 @@ app.component('projects', {
                 <div class="box2">
                     <div class="container">
                         <div class="row">
+                            <h5 class="black">For mobiles</h5>
                             <div class="popup-gallery">			
-                                <div class="col-md-3">					
-                                    <a href="img/portfolio/5.jpg" title="The Cleaner"><img src="img/portfolio/5.jpg" class="img-responsive"alt="" /></a>
-                                </div>
-                                <div class="col-md-3">
-                                    <a href="img/portfolio/6.jpg" title="The Cleaner"><img src="img/portfolio/6.jpg" class="img-responsive"alt="" /></a>
-                                </div>
-                                <div class="col-md-3">
-                                    <a href="img/portfolio/7.jpg" title="The Cleaner"><img src="img/portfolio/7.jpg" class="img-responsive"alt="" /></a>
-                                </div>
-                                <div class="col-md-3">					
-                                    <a href="img/portfolio/8.jpg" title="The Cleaner"><img src="img/portfolio/8.jpg" class="img-responsive"alt="" /></a>
+                                <div ng-repeat="count in [4,5,6]" class="col-md-4">					
+                                <img src="img/projects/mob-shop-{{count}}.png" class="img-responsive"alt="" />                                
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>		
+                </div>	
+                <div class="container">                    
+                    <div class="row">
+                        <h3 class="black">Tower of Hanoi</h3>
+                        <div class="popup-gallery">
+                            <div ng-repeat="count in [1,2,3]" class="col-md-4">
+                                <img src="img/projects/toh-{{count}}.png" class="img-responsive"alt="" />			
+                            </div>
+                        </div>
+                    </div>
+                </div>	
+                <div class="container">                    
+                    <div class="row">
+                        <h3 class="black">Web Calculator with AngulaJS</h3>
+                        <h5 class="black">For desktops</h5>
+                        <div class="popup-gallery">
+                            <div class="col-md-4">
+                                <img src="img/projects/calc-1.png" class="img-responsive"alt="" />			
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">                    
+                    <div class="row">
+                        <h5 class="black">For Mobiles</h5>
+                        <div class="popup-gallery">
+                            <div class="col-md-4">
+                                <img src="img/projects/calc-2.png" class="img-responsive"alt="" />			
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">                    
+                    <div class="row">
+                        <h5 class="black">Thesis</h5>
+                        <h3 class="black">For Desktops</h3>
+                        <div class="popup-gallery">
+                            <div ng-repeat="count in [3,4]" class="col-md-4">
+                                <img src="img/projects/thesis-{{count}}.png" class="img-responsive"alt="" />			
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">                    
+                    <div class="row">
+                        <h3 class="black">For Mobiles</h3>
+                        <div class="popup-gallery">
+                            <div ng-repeat="count in [1,2]"class="col-md-4">
+                                <img src="img/projects/thesis-{{count}}.png" class="img-responsive"alt="" />			
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
             <div class="container">
                 <div class="row">

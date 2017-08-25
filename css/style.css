@@ -26,6 +26,9 @@ body {
 	height: 510px;
 }
 
+.black {
+	color: black;
+}
 #my-image {
 	max-width: 70px;
     float: left;
