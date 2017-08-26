@@ -20,15 +20,16 @@ app.component('projects', {
             <section class="portfolio">
                 <div class="container">                    
                     <div class="row">
-                        <h3 class="black">Lets see some of my projects</h3>
+                        <h3 class="black">Some of projects</h3>
                         <hr>
                         <h3 class="black">Mobile Eshop</h3>                        
                         <h5 class="black">For desktops</h5>
                         <div class="popup-gallery">
                             <div ng-repeat="count in [1,2,3]" class="col-md-4">
                                 <img src="img/projects/mob-shop-{{count}}.png" class="img-responsive"alt="" />			
+                                <hr>
                             </div>
-                        </div>
+                        </div>                        
                     </div>
                 </div>	
                 <div class="box2">
@@ -37,7 +38,8 @@ app.component('projects', {
                             <h5 class="black">For mobiles</h5>
                             <div class="popup-gallery">			
                                 <div ng-repeat="count in [4,5,6]" class="col-md-4">					
-                                <img src="img/projects/mob-shop-{{count}}.png" class="img-responsive"alt="" />                                
+                                    <img src="img/projects/mob-shop-{{count}}.png" class="img-responsive"alt="" />                                
+                                    <hr>    
                                 </div>
                             </div>
                         </div>
@@ -49,6 +51,7 @@ app.component('projects', {
                         <div class="popup-gallery">
                             <div ng-repeat="count in [1,2,3]" class="col-md-4">
                                 <img src="img/projects/toh-{{count}}.png" class="img-responsive"alt="" />			
+                                <hr>
                             </div>
                         </div>
                     </div>
@@ -59,7 +62,8 @@ app.component('projects', {
                         <h5 class="black">For desktops</h5>
                         <div class="popup-gallery">
                             <div class="col-md-4">
-                                <img src="img/projects/calc-1.png" class="img-responsive"alt="" />			
+                                <img src="img/projects/calc-1.png" class="img-responsive"alt="" />
+                                <hr>			
                             </div>
                         </div>
                     </div>
@@ -76,21 +80,23 @@ app.component('projects', {
                 </div>
                 <div class="container">                    
                     <div class="row">
-                        <h5 class="black">Thesis</h5>
-                        <h3 class="black">For Desktops</h3>
+                        <h3 class="black">Thesis</h3>
+                        <h5 class="black">For Desktops</h5>
                         <div class="popup-gallery">
                             <div ng-repeat="count in [3,4]" class="col-md-4">
-                                <img src="img/projects/thesis-{{count}}.png" class="img-responsive"alt="" />			
+                                <img src="img/projects/thesis-{{count}}.png" class="img-responsive"alt="" />
+                                <hr>			
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="container">                    
                     <div class="row">
-                        <h3 class="black">For Mobiles</h3>
+                        <h5 class="black">For Mobiles</h5>
                         <div class="popup-gallery">
                             <div ng-repeat="count in [1,2]"class="col-md-4">
-                                <img src="img/projects/thesis-{{count}}.png" class="img-responsive"alt="" />			
+                                <img src="img/projects/thesis-{{count}}.png" class="img-responsive"alt="" />	
+                                <hr>	
                             </div>
                         </div>
                     </div>

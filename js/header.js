@@ -11,7 +11,7 @@ app.component('myHeader', {
                                 <div class="navbar-header">
                                     <img id="my-image" src="img/my-image.png">
                                     <div class="navbar-brand">
-                                        <a href="index.html"><h1>Nikos Perivolaris</h1></a>
+                                        <a href="index.html"><h1 id="navbar-h1">Nikos Perivolaris</h1></a>
                                     </div>
                                 </div>
                                 <div class="menu">
