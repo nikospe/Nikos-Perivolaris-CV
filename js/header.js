@@ -16,10 +16,10 @@ app.component('myHeader', {
                                 </div>
                                 <div class="menu">
                                     <ul class="nav nav-tabs" role="tablist">
-                                        <li role="presentation"><a href="#!/">Home</a></li>
-                                        <li role="presentation"><a href="#!/myskills">My skills</a></li>
-                                        <li role="presentation"><a href="#!projects">Projects</a></li>
-                                        <li role="presentation"><a href="#!contact">Contact me</a></li>						
+                                        <li role="presentation"><a href="#!/" id="navtabs-li">Home</a></li>
+                                        <li role="presentation"><a href="#!/myskills" id="navtabs-li">My skills</a></li>
+                                        <li role="presentation"><a href="#!projects" id="navtabs-li">Projects</a></li>
+                                        <li role="presentation"><a href="#!contact" id="navtabs-li">Contact me</a></li>						
                                     </ul>
                                 </div>
                             </div>			
