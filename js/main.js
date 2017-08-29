@@ -17,7 +17,7 @@ app.component('main', {
                                 <ul>
                                     <li>
                                         <div class="slide-body" data-group="slide">
-                                            <img src="img/2a.jpg" alt="">						
+                                            <img src="img/013.jpg" class="img-responsive" alt="">						
                                         </div>
                                     </li>
                                 </ul>
